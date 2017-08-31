@@ -9,24 +9,47 @@
         <!--
         <form action="https://www.w3schools.com/action_page.php" method="POST">
         -->
+        
         <form action="https://tecweb-acominf.c9users.io/envio.php" method="POST">
+        
             <fieldset><legend>Datos personales</legend>
-            Nombre: <input type="text" name="nombreUsuario"><br>
-            Contraseña: <input type="password" name="contraseña"><br>
-            Edad: <input type="number" name="edadUsuario">
+            <label> 
+                Nombre: <input type="text" name="nombreUsuario" placeholder="Nombre y Apellidos"><br>
+            </label>
+            <label for="idContra">Contraseña:</label> <input type="password" name="contraseña" id="idContra" required><br>
+            Edad: <input type="number" name="edadUsuario"><br>
+            Foto de Perfil: <input type="file" name="foto"><br>
+            Fecha de nacimiento: <input type="date" name="fecha"><br>
+            Estado de Origen: <select name="estado">
+                                <!--combobox-->
+                                <option value="slp">San Luis Potosi</option>
+                                <option value="cdmx">Ciudad de Mexico</option>
+                                <option value="mty">Monterrey</option>
+                                <option value="gdl">Guadalajara</option>
+                              </select><br>
+            Materias favoritas: <select name="materias[]" multiple>
+                                <option>Pensamiento Computacional</option>
+                                <option>Compiladores e Interpretes A</option>
+                                <option>Tenologias Web</option>
+                               </select><br>
+            Comentarios:
+            <textarea placeholder="Escribe tus comentarios"></textarea>
+            
             </fieldset>
         
             <fieldset><legend>Preferencias</legend>
                 Sistema Operativo <br>
-                Windows <input type="checkbox" value="windows" name="sistema1">
-                Linux <input type="checkbox" value="linux" name="sistema2">
-                OSX <input type="checkbox" value="osx" name="sistema3"><br>
+                Windows <input type="checkbox" value="windows" name="sistema[]">
+                Linux <input type="checkbox" value="linux" name="sistema[]">
+                OSX <input type="checkbox" value="osx" name="sistema[]"><br>
 
                 Telefono<br>
                 Android <input type="radio" value="Android" name="tel">
                 iOS <input type="radio" value="iOS" name="tel"><br>
+
             </fieldset>
             <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
         </form>
     </body>
 </html>
