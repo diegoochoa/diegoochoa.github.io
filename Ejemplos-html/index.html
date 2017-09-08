@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Parcial 1</title>
+        <link rel="stylesheet" type="text/css" href="../Ejemplos-css/estilo-bordes.css">
     </head>
     <body>
-        <h1 align="center" id="inicio">Resumen de lo que se vio en el parcial 1</h1>
-        <table  border="separate">
+        <h1 align="center" id="inicio">Tecnologias WEB UASLP</h1>
+        <table  border="separate" align="center">
             <tr>
                 <td>Fecha</td>
                 <td>Tema</td>
@@ -62,44 +63,75 @@
                 <td><a href="#tablas">Tablas en HTML</a></td>
                 <td><a href="tablas.html"  target="_blank">tablas.html</a></td>
             </tr>
+            <tr>
+                <td>29/08/17</td>
+                <td><a href="#formularios">Fomularios en HTML</a></td>
+                <td><a href="formularios.html"  target="_blank">formularios.html</a></td>
+            </tr>
+            <tr>
+                <td>01/09/17</td>
+                <td><a href="#etiquetas">Etiquetas de Maquetado</a></td>
+                <td><a href="http://www.laurachuburu.com.ar/tutoriales/linea-y-bloque.php"  target="_blank">Elementos en bloque</a></td>
+            </tr>
+            <tr>
+                <td>04/09/17</td>
+                <td><a href="#css">CSS (Cascading Style Sheets)</a></td>
+                <td><a href="https://www.w3schools.com/css/"  target="_blank">CSS</a></td>
+            </tr>
+            <tr>
+                <td>06/09/17</td>
+                <td><a href="#selectores">Tipos de Selector</a></td>
+                <td><a href="http://librosweb.es/libro/css/capitulo_2/selectores_basicos.html"  target="_blank">Selectores</a></td>
+            </tr>
+            <tr>
+                <td>07/09/17</td>
+                <td><a href="#caja">Modelo de Caja</a></td>
+                <td><a href="http://www.sidar.org/recur/desdi/traduc/es/css/box.html"  target="_blank">Modelo Caja</a></td>
+            </tr>
         </table>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="historia">
+            <h3>Historia de la Web</h3>
+            <p>Internet ----Arpanet<br>
+            La Web se crea en el CERN (Centro de Investigacion en Suiza), donde cuentan con un acelerador de partículas<br>
+            Tim Berners Lee (W3C) recibio el premio Alan Turing en 2016 por su creación<br></p>
+            <img src="../imagenes/tim.jpg" width="300"><br>
+            <a href="#inicio">Regresar a inicio</a>
+        </div>
 
-        <h3 id="historia">Historia de la Web</h3>
-        <p>Internet ----Arpanet<br>
-        La Web se crea en el CERN (Centro de Investigacion en Suiza), donde cuentan con un acelerador de partículas<br>
-        Tim Berners Lee (W3C) recibio el premio Alan Turing en 2016 por su creación<br></p>
-        <img src="../imagenes/tim.jpg" width="300"><br>
-        <a href="#inicio">Regresar a inicio</a>
+        <div id="modelo">
+            <h3>Modelo Cliente/Servidor</h3>
+            <img src="../imagenes/clienteservidor.jpg" width="450">
+            <img src="../imagenes/clienteservidorbd.jpg" height="500"><br>
+            <a href="#inicio">Regresar a inicio</a>
+        </div>
 
-        <h3 id="modelo">Modelo Cliente/Servidor</h3>
-        <img src="../imagenes/clienteservidor.jpg" width="450">
-        <img src="../imagenes/clienteservidorbd.jpg" height="500"><br>
-        <a href="#inicio">Regresar a inicio</a>
+        <div id="tipos">   
+            <h3>Tipos de programación Web</h3>
+            <h4>Front-End</h4>
+            Cliente-Servidor
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h4>Back-End</h4>
+            Servidor
+            <ul>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Django</li>
+                <li>Servlets</li>
+                <li>CGI</li>
+                <li>Rails</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+            </ul><br>
+            <a href="#inicio">Regresar a inicio</a><br>
+        </div>
 
-        <h3 id="tipos">Tipos de programación Web</h3>
-        <h4>Front-End</h4>
-        Cliente-Servidor
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-        <h4>Back-End</h4>
-        Servidor
-        <ul>
-            <li>PHP</li>
-            <li>MySQL</li>
-            <li>Django</li>
-            <li>Servlets</li>
-            <li>CGI</li>
-            <li>Rails</li>
-            <li>Node</li>
-            <li>MongoDB</li>
-        </ul><br>
-        <a href="#inicio">Regresar a inicio</a><br>
-
-        <h3 id="intro">Introduccion a HTML</h3>
+        <div id="intro">
+        <h3>Introduccion a HTML</h3>
         <p><em>Hypertext Markup Language</em></p>
         <p>Todas las paginas web son documentos de texto<br>
             HTML es un lenguaje de texto mejorado.
@@ -113,8 +145,10 @@
             &lt;etiqueta nombre="valor"&gt; contenido  &lt;/etiqueta&gt;<br>
         </p>
         <a href="#inicio">Regresar a inicio</a><br>
+        </div>
 
-        <h3 id="estructura">Estructura de una pagina Web</h3>
+        <div id="estructura">
+        <h3>Estructura de una pagina Web</h3>
         <pre>
                 Declaracion &lt;!DOCTYPE html&gt;
                             &lt;html&gt;
@@ -126,8 +160,10 @@
                             &lt;/html&gt;
         </pre>
         <a href="#inicio">Regresar a inicio</a><br> 
+        </div>
 
-        <h3 id="texto">Texto en HTML</h3>
+        <div id="texto">
+        <h3>Texto en HTML</h3>
         <ol>
             <li>Encabezados = h1...h6</li>
             <li>Parrafos &lt;p&gt;</li>
@@ -138,8 +174,10 @@
             <li>Resaltar &lt;em&gt;</li>
         </ol>
         <a href="#inicio">Regresar a inicio</a><br>
+        </div>
 
-        <h3 id="listas">Listas en HTML</h3>
+        <div id="listas">
+        <h3>Listas en HTML</h3>
         <ol>
             <li>Ordenadas     &lt;ol&gt; (numeros)</li>
             <li>No ordenadas  &lt;ul&gt; (viñetas)</li>
@@ -148,8 +186,10 @@
         
         <img src="../imagenes/Listas.png" alt="listas"><br>
         <a href="#inicio">Regresar a inicio</a><br>
+        </div>
 
-        <h3 id="enlaces">Enalces en HTML</h3>
+        <div id="enlaces">
+        <h3>Enalces en HTML</h3>
         <ul>
             <li>Enlaces de un sitio a otro</li>
             <li>De una pagina a otra dentro del mismo sitio</li>
@@ -160,8 +200,10 @@
         </ul>
         <img src="../imagenes/enlaces.png" alt="enlaces"><br>
         <a href="#inicio">Regresar a inicio</a><br>
-        
-        <h3 id="imagenes">Imagenes en HTML</h3>
+        </div>
+
+        <div id="imagenes">
+        <h3>Imagenes en HTML</h3>
         <ul>
             <li>Es un elemento vacio</li>
             <li>Atributos -src (obligatorio)</li>
@@ -172,8 +214,10 @@
         </ul>
         <img src="../imagenes/imagenes.png" alt="imagenes"><br>
         <a href="#inicio">Regresar a inicio</a><br>
+        </div>
 
-        <h3 id="tablas">Tablas en HTML</h3>
+        <div id="tablas">
+        <h3>Tablas en HTML</h3>
         &lt;table&gt;<br>
         Son elementos compuestos por otros elementos, filas &lt;tr&gt;<br>
         Las filas son elementos compuestos por celdas &lt;td&gt;<br>
@@ -181,5 +225,172 @@
         colspan agrupa las celdas horizontalmente<br>
         <img src="../imagenes/tablas.png" alt="tablas"><br>
         <a href="#inicio">Regresar a inicio</a><br>
+        </div>
+
+        <div id="formularios">
+            <h3>Formularios en HTML</h3>
+            -Atributos<br>
+            action = especifica a la pagina a donde se enviarion los datos en el Servidor
+
+            method<br>
+            <ul>
+                <li>get-para informacion/no es informacion sensible ya que se ve en URL</li>
+                <li>post-mucha informacion/alta-baja BD/informacion sensible y no es visible en la URL porque utiliza encabezados HTTP</li>
+            </ul>
+
+            <h4>Contorles mas comunes</h4>
+            <ul>
+                <li>Texto</li>
+                    <ul>
+                        <li>Linea de texto (text)</li>
+                        <li>Contraseña (password)</li>
+                        <li>Area de texto (text area)</li>
+                    </ul>
+                <li>Elecciones</li>
+                    <ul>
+                        <li>Botones de radio (radio)</li>
+                        <li>Cajas de identificacion (checkbox)</li>
+                        <li>Cuadros de lista (combobox)</li>
+                        <li>Cuadros de lista con seleccion muliple</li>
+                    </ul>
+                <li>Tiempo</li>
+                    <ul>
+                        <li>Fecha</li>
+                        <li>Mes</li>
+                        <li>Semana</li>
+                        <li>Hora</li>
+                    </ul>
+                </ul>            
+        <img src="../imagenes/formulario.png" alt="formulario"><br>
+        <a href="#inicio">Regresar a inicio</a><br><br>
+        </div>
+
+        <div id="etiquetas">
+            <h3>Etiquetas de maquetado</h3>
+            Tipos de elementos<br>
+            <ul>
+                <li>Bloque</li>
+                <li>Linea</li>
+            </ul>
+            <img src="../imagenes/elementos.gif" alt="elementos"><br>
+            Reglas<br>
+            -Los elementos de linea no deben contener elementos de bloque <br><br>
+            Etiquetas semanticas<br>
+            <ul>
+                <li>&lt;header&gt;</li>
+                <li>&lt;nav&gt;</li>
+                <li>&lt;article&gt;</li>
+                <li>&lt;seccion&gt;</li>
+                <li>&lt;footer&gt;</li>
+            </ul>
+
+            Etiquetas no semanticas<br>
+            <ul>
+                <li>&lt;div&gt; agrupa elementos en bloque</li>
+                <li>&lt;span&gt; agrupa elementos en linea</li>
+            </ul>
+
+            El objetivo es mejorar el posicionamiento y el mantenimiento<br>
+            <a href="#inicio">Regresar a inicio</a><br>
+        </div>
+
+        <div id="css">
+            <h3>CSS</h3>
+            <p>
+                Es un lenguaje para describir la presentacion de las paginas web, 
+                incluyendo color, diseño y fientes. (W3C)
+            </p>
+            <p>
+                Permite adaptar la presentacion a diferentes tipos de dispositivos, tales como pantallas
+                grandes, pantallas pequeñas e impresoras.
+            </p>
+            <p>
+                Es independiente de HTML, puede ser usado con cualquier lenguaje de marcado basado en XML
+            </p>
+            <p>
+                La separacion de HTML y CSS hace mas facil manejar sitios, compartir hojas de estilo
+                entre paginas y ajustarlas a diferentes entornos.
+            </p>
+
+            <table border="separate">
+                <tr>
+                    <td>Versiones</td>
+                    <td>Borrador</td>
+                    <td>Liberado</td>
+                    <td>Soportado</td>
+                </tr>
+                <tr>
+                    <td>-CSS1</td>
+                    <td>1996</td>
+                    <td>1999</td>
+                    <td>2001</td>
+                </tr>
+
+                <tr>
+                    <td>-CSS2</td>
+                    <td>1998</td>
+                    <td>2007</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>-CC3</td>
+                    <td>2001</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <p>CSS esta basado en Reglas<br><br>
+                -Sintaxis de una regla: <br>
+                selector{declaraciones;}<br><br>
+                Sintaxis de declaraciones: <br> 
+                propiedad:valor;<br>
+                Ejemplo:
+
+                h1{color:blue;}
+            </p>
+
+            <p>Tipos de estilos: <br>
+                <ol>
+                    <li>Por default (aplicado por el navegador)</li>
+                    <li>Definidos por el usuario ("user styles")</li>
+                    <li>Hojas de estilo externos</li>
+                    <li>Estilo interno (etiqueta &lt;style&gt; de HTML)</li>
+                    <li>Estilo de linea (atributo style de HTML)</li>
+                </ol>
+            </p>
+
+            <p id=selectores>Tipos de selectores: <br>
+                <ol>
+                    <li>Selector universal *</li>
+                        Aplica un estilo a todos los elementos del documento.<br>
+                        Ejemplo: <br>
+                            *{font-family : Arial;}<br><br>
+                    <li>Selector de tipo (etiqueta)</li>
+                        Aplica un estilo a todos los elementos de la etiqueta.<br>
+                        Ejemplo:<br>
+                            h1{......;}<br><br>
+                    <li>Selector de base</li>
+                        Aplica un estilo a los elementos que tengan el atributo <em>class</em>
+                        especificado por un valor.<br>
+                        Ejemplo: <br>
+                            .nota{color: green;}<br><br>
+                    <li>Selector de ID</li>
+                        Aplica el estilo a los elementos que tienen el atributo ID con un valor dado.<br>
+                        Ejemplo: <br>
+                        #ID {background-color: cyan;}<br><br>
+                </ol>
+                <a href="#inicio">Regresar a inicio</a><br>
+        </div>
+
+        <div id="caja">
+            <h3>Modelo de Caja</h3>
+
+                <img src="../imagenes/cajamodelo.gif" alt="modelocaja"><br>
+                <a href="#inicio">Regresar a inicio</a><br>
+        </div>
+
+        
     </body>
 </html>

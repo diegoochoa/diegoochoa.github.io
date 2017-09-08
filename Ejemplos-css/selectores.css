@@ -12,6 +12,14 @@
     font-weight: bold;
 }
 
-#intro2{
-    color: red;
+
+
+div > p{
+    color:blue;
+}
+
+article{
+    border:1px solid green;
+    margin:30px 20px 10px 5px;
+    padding: 50px;
 }
