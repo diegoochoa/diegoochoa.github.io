@@ -1,5 +1,5 @@
 body {
-    background-color: #18FFEE;
+    background-color: #32F3F5;
 }
 
 * {
@@ -11,4 +11,13 @@ body {
 main {
     width: 480px;
     margin: auto;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-variant: small-caps;
 }
