@@ -1,27 +1,33 @@
 body {
-    background-color:salmon;
+    background-color:#161657;
 }
-
-/* header{ 
-    position: fixed;
-    background: red;
-    left:550px;
-} */
+article{
+    margin:50px;;
+    padding: 50px;
+    width:200px;
+    height: 450px;
+    position: relative;
+    background-color:#CAC6C6;
+    float: left; 
+}
 
 header > h1{
     text-align: center;
+    background: white;
+    padding: 20px;
+    color: #161657;
 }
 
 * {
     border-width: 1px;
-    margin: 0;
     padding: 0;
 }
 
 
 main {
     
-    width: 480px;
+    width: 800px;
+    height: 2000px;
     margin-right: auto;
     margin-left: auto;
     background-color:white;
@@ -51,3 +57,87 @@ h2{
 }
 
 
+/*Origen*/
+
+.contenedor{
+    margin:auto;
+    text-align: justify;
+}
+
+.origen{
+    margin:auto;
+    background-color: white;
+    width:800px;;
+}
+
+.origen > p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-style: italic;
+}
+
+img{
+    align-self: center;
+    margin-left:300px;;
+}
+
+/*.......................*/
+
+.contenedor2{
+    width:600px;
+    margin:auto;
+    text-align: justify;
+    background-color: white
+}
+
+
+#enlaces > p{
+    margin-top:20px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#enlaces > img{
+    width:400px;
+    display: block;
+    margin:auto;
+}
+li{
+    margin:20px;
+}
+
+
+/*......................*/
+.contenedor3{
+    width:600px;
+    margin:auto;
+    text-align: justify;
+    background-color: white
+}
+
+#tipos > p{
+    margin-top:20px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tipos > h3{
+    text-align: center;
+}
+
+#tipos > img{
+    display: block;
+    margin: auto;
+    width: 400px;;
+    padding: 25px;
+}
