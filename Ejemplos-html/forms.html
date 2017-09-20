@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="GET">
+
+        <fieldset><legend>Datos Personales</legend>
+            <label>
+                Nombre: <input type="text" name="nombreUsuario" placeholder="Nombre y Apellido"><br>
+                Contraseña: <input type="password" name="contraseña" placeholder="Contraseña"><br>
+                Edad: <input type="number" name="edad" placeholder="Edad"><br>
+                Foto: <input type="file" name="fotoPerfil" placeholder="Foto"><br>
+                Estado de origen <select name="estado">
+                                    <option value="slp">San Luis Potosi</option>
+                                    <option value="df">Ciudad de Mexico</option>
+                                    <option value="leon">Leon</option>
+                                    <option value="ags">Aguascalientes</option>
+                                </select><br>
+                Materias favoritas <select name="materias" multiple>
+                                    <option value="TW">Tecnologias Web</option>
+                                    <option value="EB">Electronica B</option>
+                                    <option value="SOA">Sistemas Operativos A</option>
+                </select><br>
+                
+            </label>
+        </fieldset>
+
+        <fieldset><legend>Preferencias</legend>
+            <label>
+            Sistema Operativo<br>
+            Windows<input type="checkbox" value="windows" name="sistema[]">
+            MacOS <input type="checkbox"value="macos" name="sistema[]" >
+            Linux <input type="checkbox" value="linux" name="sistema[]">
+            <br>
+            Telefono<br>
+            Android <input type="radio" value="android" name="tel">
+            iPhone <input type="rado" value="os" id="tel">
+            </label>    
+        </fieldset>
+        <input type="submit" value="enviar">
+</body>
+</html>

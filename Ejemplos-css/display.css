@@ -1,0 +1,18 @@
+a{
+    background-color: #12664f;
+    color: #c6d4ff;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: #c6d4ff;
+    color: #12664f;
+}
+
+
+a:active{
+    color: #2dc2bd;
+}
