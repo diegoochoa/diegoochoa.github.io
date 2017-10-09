@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo,nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo{
+    max-width: 25%;
+    padding: 1rem;
+}
+.logo img{
+    max-width: 100%;
+}
+.contenedor{
+    width: 80%;
+    background: gray;
+    margin: 0 auto;
+}
+
+header{
+    background: #1B3357;
+     
+}
+
+nav ul li a{
+    color: white; 
+    text-decoration: none; /*Eliminar el subrayado*/
+    padding: 1rem 1.25rem;  /*20px / 16 px */
+    margin: 0.625rem;  /*10px / 16px*/
+    border-radius: 0.625rem;
+    display: block; /*Genera el espacio necesario de bloque alrededor de los enlaces*/
+    
+    
+}
+
+nav ul li a:hover{
+   background-color: #c6c5b9;
+   color: black;
+}
+
+nav ul li{
+    display: inline-block;
+
+} 
+
+/* nav ul{
+    list-style: none; Elimina las viñetas
+} */
+
+@media screen and (max-width: 48.75rem) {
+    .logo{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

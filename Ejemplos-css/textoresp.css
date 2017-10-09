@@ -1,0 +1,54 @@
+@media screen  and (max-width : 25rem){
+   .tablet, .desktop, .tv{
+       display: none;
+       /* visibility: hidden; */
+   }
+   html{
+    font-size: 90%;
+    }
+}
+
+@media screen and (min-width: 25rem) and (max-width: 50rem ){
+    .movil, .desktop, .tv{
+        display: none;
+    }
+
+    html{
+        font-size: 125%;
+        }
+}
+
+@media screen and (min-width: 50rem) and (max-width:75rem){
+   .movil, .tablet, .tv{
+       display: none;
+   }
+
+   html{
+       font-size: 150%;
+   }
+}
+
+@media screen and (min-width: 75rem) and (max-width: 100rem){
+    .movil, .tablet, .desktop{
+        display: none;
+    }
+
+    html{
+        font-size: 200%;
+    }
+}
+
+body{
+    background-color: red;
+}
+
+.contenedor{
+    max-width: 25rem;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+p{
+    border: .0625rem solid black;
+    padding: 1.25rem;
+}
